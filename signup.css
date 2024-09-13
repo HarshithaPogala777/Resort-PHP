@@ -1,0 +1,40 @@
+body{
+    background-image:url("image1_2.jpg");
+    height:100vh;
+    -webkit-background-size:cover;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+
+    /* background-attachment:fixed; */
+}
+
+
+.scroll-container {
+    width: 300px;
+   height:100px;
+    overflow: hidden;
+    position: relative;
+   /* border:1px solid #ccc;*/
+}
+.scroll-content {
+    white-space: nowrap;
+    animation: scroll 5s linear infinite;
+  font-size:35px;
+  color:white;
+  font-style:oblique;
+}
+
+@keyframes scroll {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(100%); }
+}
+.form
+{
+    margin-left:200px;
+    margin-right:200px;
+    margin-top:100px;
+    padding-left:50px;
+    padding-right:50px;
+    height:400px;
+}

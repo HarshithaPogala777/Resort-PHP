@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body{
+  background:rgb(194, 176, 176)	;
+}
+nav {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 100px;
+	color:firebrick;
+  background-image: linear-gradient( rgba(10, 10, 10, 0), rgb(0, 17, 255));
+}
+.logo {
+	font-size: 25px;
+	color: #fff;
+	padding: 0 15px;
+}
+.menu ul li {
+	display: inline-block;
+	margin: 0 15px;
+}
+.menu ul li a {
+	text-decoration: none;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: montserrat;
+	color: #fff;
+	padding: 5px 15px;
+}
+.menu ul li a:hover{
+    background: rgb(31, 31, 32);
+}
+.socials a {
+	text-decoration: none;
+	background:orange;
+	color: #fff;
+	padding: 10px 35px;
+}
+    .rowfooterSection{
+        background-color: rgb(3, 23, 58);
+        color: white;
+    }
+    .rectangle1 {
+      display: inline-block;
+      padding: 1px 1px;
+      border: 1px solid #000;
+      border-radius: 3px;
+      background-color: green;
+      color: white;
+      font-size: 15px;
+      font-style: italic;
+    }
+    .rectangle {
+      display: inline-block;
+      padding: 2px 4px;
+      border: 1px solid #000;
+      border-radius: 3px;
+      background-color: rgb(2, 0, 128);
+      color: white;
+      font-size: 15px;
+      font-style: italic;
+    }
+    .checkmark {
+      font-size: 14px;
+      color: black; 
+      margin-right: 5px;
+    }
+    .star {
+      font-size: 25px;
+      color: rgb(211, 182, 20); 
+      margin-right: 5px;
+    }
+  </style>
+  <title>Bootstrap Navigation Bar</title>
+</head>
+<body>
+  <nav>
+    <div class="logo">HAPPY RESORT</div>
+    <div class="menu">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="about.html">contact</a></li>
+        </ul>
+    </div>
+    
+</nav>
+
+
+<img src = "deluxe4.jpg" width="1350px" height="500px"><br><br>
+<h2 align="center">EXECUTIVE SEA-FACING FAMILY SUITE</h2><br><br>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-6 col-md-5 col-sm-5 col-xs-6">
+        <b>Room Features:-</b><br><br>
+        <ul>
+        <li>Size : 43 sqm</li>
+          <li>Private balcony with garden view</li>
+          <li>King-sized bed/two single beds</li>
+          <li>Tiled flooring and carpet rug</li>
+          <li>Bathroom with amenities and separate shower cubicle</li>
+          <li>Slippers</li>
+          <li>Hairdryer</li>
+          <li>Safety deposit box</li>
+          <li>Flat-screen TV with in-house and satellite channels</li>
+          <li>Iron & Ironing board</li>
+          <li>Coffee/Tea-making facilities</li>
+          <li>Minibar</li>
+          <li>Wi-Fi</li>
+          <li>This room category cannot accommodate an extra </li>
+        </p>
+        </ul>
+    </div>
+    <div class="col"><br><br><br><br>
+        <b><p>Room Amenities:-</p></b >
+        <ul>
+          <li>Wifi</li>
+          <li>Telecommunication</li>
+        </ul>
+    </div>
+    <div class="col"><br><br><br><br>
+      <a style="color: maroon;"><h5><s><b>&#x20B9;3,500</b></s></h5>
+        <h3><a style="color:black;">&#x20B9;1,500</a>
+            <div class="rectangle1">
+            <small>65% off</small>
+            </div>
+        </h3>
+        </a>
+        <p>+&#x20B9; 150 taxes and charges</p>
+        <div class="checkmark">&#10004; <b>Free cancellation</b></div>
+        <div class="checkmark">&#10004; <b>Free Entry</b><br>                                                                                                                                                                 
+      <a href="ResortReg.php" class="btn btn-danger float-right">Register Here &rarr;</a>
+  </div>
+</div>
+</div><br><br><br><br>
+</div>
+<section class="rowfooterSection">
+    <div class="containerLg">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6 footerCol pageLinks">
+                <ul id="menu-footer-menu" class="footerList clearfix footerListHalf"><li id="menu-item-338" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-338 ">Home</li>
+                    <li class="menu-item menu-item-type-post_type_archive menu-item-object-cpt_promo menu-item-339 ">Promotions</li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-39 current_page_item menu-item-340 active  ">Rooms</li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-341 ">Facilities</li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-342 ">Food &#038; Beverage</li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-343 ">Meetings &#038; Events</li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-344 ">Activities</li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-345 ">Location</li>
+                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-346 ">Contact Us</li>
+                    <li  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2447">Infographic</li>
+            </ul>
+			</div>
+            <div class="col-lg-6 col-md-5 col-sm-5 col-xs-6 footerCol">					
+                <h4>Our Hotels</h4>
+                <ul class="footerList clearfix">
+                    <li>Happy-Garden Hotel &amp; Residences, Genting Highlands</li>
+                    <li>Swiss-Garden Beach Resort Kuantan</li>
+                    <li>Swiss-Garden Beach Resort Damai Laut (Rebranded)</li>
+                    <li>Swiss-Garden Hotel Melaka</li>
+                    <li>Happy-Garden Hotel Bukit Bintang Kuala Lumpur</li>
+                    <li>Happy-Inn Johor Bahru (Rebranded)</li>
+                    <li>Damai Laut Golf &amp; Country Club</li>                     
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 footerLastCol">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-3 footerHdLinkCol">
+                        <h4>
+                            Best Rate Guarantee
+                        </h4>
+                                                        <h4>
+                            E-Brochure
+                        </h4>
+                                                        <h4>
+                            Sitemap
+                        </h4>
+                    </div>
+                    <div class="col-sm-12 col-xs-6 newsletter">
+                        <h4>Newsletter Subscription</h4>
+                        <p>Get all offers in your mailbox</p>
+                        <form action="" method="" class="newsletterForm" autocomplete="off">
+                            <input type="email" name="newsEmail" id="newsEmail" placeholder="Your email here">
+                            <input type="submit" name="newsSubmit" id="newsSubmit" value="Submit">
+                        </form>
+                                                                                            
+                    </div>							
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
